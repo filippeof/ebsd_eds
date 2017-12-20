@@ -2,7 +2,7 @@
 Couple EDS information with EBSD in Mtex/Matlab
 
 Objective is to quantify spectrum and correlate spatially chemistry with orientation data(EBSD) in MTEX. 
-For example, some pseudo code to extract grains presenting iron content higher than 50%:
+For example, some pseudo code to extract grains presenting iron wt% higher than 50:
 
 grainsIron=grains(eds('iron')>50)
 
